@@ -1,0 +1,9 @@
+q {
+
+    &::before,
+    &::after {
+
+        // misc
+        content: none;
+    }
+}

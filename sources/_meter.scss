@@ -1,0 +1,11 @@
+meter {
+
+    // visual
+    background: none;
+
+    &::-moz-meter-bar {
+
+        // visual
+        background: none;
+    }
+}

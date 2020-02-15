@@ -1,0 +1,54 @@
+input {
+
+    // typography
+    font-family: inherit;
+    font-size: inherit;
+
+    // box model
+    border: none;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: top;
+
+    // visual
+    background: none;
+    box-shadow: none;
+    color: inherit;
+
+    &[type="checkbox"],
+    &[type="file"],
+    &[type="radio"],
+    &[type="range"],
+    &[type="reset"],
+    &[type="submit"] {
+
+        // visual
+        cursor: pointer;
+    }
+
+    &::-moz-focus-inner {
+
+        // box model
+        border: 0;
+        padding: 0;
+    }
+
+    &::-moz-placeholder {
+
+        // misc
+        opacity: 1;
+    }
+
+    &::-ms-clear {
+
+        // box model
+        display: none;
+    }
+
+    &::-webkit-input-placeholder {
+
+        // visual
+        color: inherit;
+    }
+}

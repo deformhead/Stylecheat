@@ -1,0 +1,15 @@
+progress {
+
+    // box model
+    -moz-appearance: none;
+    border: none;
+
+    // visual
+    background: none;
+
+    &::-moz-progress-bar {
+
+        // visual
+        background: none;
+    }
+}

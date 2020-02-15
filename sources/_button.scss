@@ -1,0 +1,25 @@
+button {
+
+    // typography
+    font-family: inherit;
+    font-size: inherit;
+    text-align: inherit;
+
+    // box model
+    border: none;
+    outline: 0;
+    padding: 0;
+    vertical-align: top;
+
+    // visual
+    background: none;
+    color: inherit;
+    cursor: pointer;
+
+    &::-moz-focus-inner {
+
+        // box model
+        border: 0;
+        padding: 0;
+    }
+}
